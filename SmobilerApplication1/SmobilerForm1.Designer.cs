@@ -21,6 +21,7 @@ namespace SmobilerApplication1
         {
             this.button1 = new Smobiler.Core.Controls.Button();
             this.button2 = new Smobiler.Core.Controls.Button();
+            this.button3 = new Smobiler.Core.Controls.Button();
             // 
             // button1
             // 
@@ -36,11 +37,19 @@ namespace SmobilerApplication1
             this.button2.Size = new System.Drawing.Size(100, 30);
             this.button2.Text = "button2";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(130, 335);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 30);
+            this.button3.Text = "button3";
+            // 
             // SmobilerForm1
             // 
             this.Controls.AddRange(new Smobiler.Core.Controls.MobileControl[] {
             this.button1,
-            this.button2});
+            this.button2,
+            this.button3});
             this.Name = "SmobilerForm1";
 
         }
@@ -48,5 +57,6 @@ namespace SmobilerApplication1
 
         private Smobiler.Core.Controls.Button button1;
         private Smobiler.Core.Controls.Button button2;
+        private Smobiler.Core.Controls.Button button3;
     }
 }
